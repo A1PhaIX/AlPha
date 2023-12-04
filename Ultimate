@@ -204,7 +204,7 @@ setmetatable(UITab, MethodsAutoTableUI);
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/A1PhaIX/AlPha/main/UI"))();
 Ui_Configs["FirstOnChanged"] = false;
-local Windows = Library:CreateWindow(string.format("Rageblade Ultimate%s - %s", "Ultimate", Global_V.Version_script));
+local Windows = Library:CreateWindow(string.format("Rageblade %s - %s", "Ultimate", Global_V.Version_script));
 
 UITab["Farming Beri"]["Main"] = Windows:AddTab("Farming Beri");
 
