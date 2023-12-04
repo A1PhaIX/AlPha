@@ -241,7 +241,7 @@ if Config.SaveSetting then
 Save()
 end
 end
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = FolderName})
+local Window = OrionLib:MakeWindow({Name = "AlPha Hub", HidePremium = false, SaveConfig = true, ConfigFolder = FolderName})
 
 local Tab = Window:MakeTab({
 	Name = "Main",
@@ -262,7 +262,7 @@ local Tab3 = Window:MakeTab({
 })
 
 OrionLib:MakeNotification({
-	Name = "SKID HUB",
+	Name = "AlPha Hub",
 	Content = "SUCCESSFULLY LOADED",
 	Image = "rbxassetid://4483345998",
 	Time = 5
