@@ -218,7 +218,7 @@ spawn(function()
 
 
 end);
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/A1PhaIX/AlPha/main/UI%20Olion')))()
 local FolderName = "OPL";
 local ConfigFile = game.Players.LocalPlayer.Name..".txt";
 local function Load()
