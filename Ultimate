@@ -488,7 +488,7 @@ UITab["HunterX"]["Right"]["Webhook"]:AddButton("Send Test", function()
         Body = game:GetService("HttpService"):JSONEncode({
             ["embeds"] = {{
                 ["color"] = (Options["HunterX:HunterX Right:Webhook:Webhook Color"].Value and tonumber(to_hex(Options["HunterX:HunterX Right:Webhook:Webhook Color"].Value))) or tonumber("0x4934eb");
-                ["title"] = "Krypton Notification";
+                ["title"] = "AlPha Notification";
                 ["fields"] = {{
                     ["name"] = "Just Test.";
                     ["value"] = "Hello World!";
