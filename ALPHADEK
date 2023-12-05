@@ -279,7 +279,7 @@ OrionLib:MakeNotification({
 cooltoggle2 = Tab:AddToggle({
     Name = "Safe Zone",
     
-    Default = Config.safezone or false,
+    Default = Config.safezone or true,
     Callback = function(Value)
         Config.safezone = Value
         SaveSetting()
@@ -903,7 +903,7 @@ local Section = Tab:AddSection({
 cooltoggle = Tab:AddToggle({
     Name = "Cannon Ball Farm Mobs and Players (Fast)",
     
-    Default = Config.cannonfarmboth or false,
+    Default = Config.cannonfarmboth or true,
     Callback = function(Value)
     Config.cannonfarmboth = Value
 
