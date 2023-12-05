@@ -1324,7 +1324,7 @@ local Section = Tab:AddSection({
 
 Tab:AddSlider({
 	Name = "Multi Damage YOru",
-	Min = 0,
+	Min = 100,
 	Max = 100,
 	Default = Config.yoruhits or false,
 	Color = Color3.fromRGB(255,255,255),
@@ -1369,7 +1369,7 @@ while Config.Yoru do
 Tab:AddSlider({
 	Name = "Cooldown Yoru",
 	Min = 0,
-	Max = 10,
+	Max = 0,
 	Default = Config.cdyoru or false,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
