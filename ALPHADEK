@@ -387,7 +387,7 @@ if Config.SaveSetting then
 Save()
 end
 end
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = FolderName})
+local Window = OrionLib:MakeWindow({Name = "AlPha Premium", HidePremium = false, SaveConfig = true, ConfigFolder = FolderName})
 
 local Tab = Window:MakeTab({
 	Name = "Main",
