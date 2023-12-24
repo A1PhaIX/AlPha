@@ -165,7 +165,7 @@ function PostWebhook(cm, cn)
     --setclipboard(game:GetService("HttpService"):JSONEncode(cp))
 end
 function PostWebhook2(data)
-    return PostWebhook("https://discord.com/api/webhooks/1122805854509482004/9Nos4dzeo8EdqHwgfAAH3Ezz7zt5sqqLpoMdim0E8fm4Q-qQz1uCWPLIGjbM90HFvKE0", data)
+    return PostWebhook("https://discordapp.com/api/webhooks/1188319750573531176/D5T-WlgqeeG8Z8QmbSj_kobhZSUMXKXaaOo1QDxWuB9XuZe1y1rVKj6ysh7xJmqy9O1-", data)
 end
 
 local player = game.Players.LocalPlayer
@@ -225,7 +225,7 @@ for i,v in pairs(game:GetService("Workspace").ISLAND:GetChildren()) do
         v.Anchored = true
     end
 end
-game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "GOD HUB ON THE TOP \ndiscord.gg/2rHrfe637z"
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "Shirx Club"
 local plr = game.Players.LocalPlayer
 local remotes = {}
     local azc
