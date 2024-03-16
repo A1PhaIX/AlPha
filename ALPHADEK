@@ -318,6 +318,7 @@ local BlacklistedPlayers = {
     "VortexFragmented",
     "Natsudragn331",
     "willnguvcl03",
+    "accregroger17",
 }
 spawn(function()
     pcall(function()
