@@ -225,7 +225,7 @@ for i,v in pairs(game:GetService("Workspace").ISLAND:GetChildren()) do
         v.Anchored = true
     end
 end
-game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "Shirx Club"
+game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.C.Frame.Nametag.Text = "For Dev Only"
 local plr = game.Players.LocalPlayer
 local remotes = {}
     local azc
