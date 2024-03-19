@@ -320,6 +320,7 @@ local BlacklistedPlayers = {
     "willnguvcl03",
     "accregroger17",
     "azdfghjklzxcvbnmdz",
+    "CamelotPowerFully",
 }
 spawn(function()
     pcall(function()
