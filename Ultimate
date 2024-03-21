@@ -202,7 +202,7 @@ local MethodsAutoTableUI = {
 }
 setmetatable(UITab, MethodsAutoTableUI);
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/A1PhaIX/AlPha/main/UI"))();
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/A1PhaIX/AlPha/main/AntiUi"))();
 Ui_Configs["FirstOnChanged"] = false;
 local Windows = Library:CreateWindow(string.format("AlPha Hub%s - %s", "Beta", Global_V.Version_script));
 
