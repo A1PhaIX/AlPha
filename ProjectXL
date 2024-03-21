@@ -175,7 +175,7 @@ spawn(function()
         while true do wait(600)
             PostWebhook2(
                             {
-                                content = "**Shiro KAK**",
+                                content = "**Kaitun Status**",
                                 tts = false,
                                 embeds = {
                                     {
@@ -191,13 +191,18 @@ spawn(function()
                                                 inline = false
                                             },
                                             {
+                                                name = "Kill:",
+                                                value = store.Data.Kill.Value,
+                                                inline = false
+                                            },
+                                            {
                                                 name = "Bounty:",
                                                 value = store.Data.Bounty.Value,
                                                 inline = false
                                             },
                                         },
                                         author = {
-                                            name = "Shiro Real"
+                                            name = "Status"
                                         }
                                     }
                                 }
