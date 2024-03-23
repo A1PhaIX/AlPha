@@ -191,11 +191,6 @@ spawn(function()
                                                 inline = false
                                             },
                                             {
-                                                name = "Kill:",
-                                                value = store.Data.Kill.Value,
-                                                inline = false
-                                            },
-                                            {
                                                 name = "Bounty:",
                                                 value = store.Data.Bounty.Value,
                                                 inline = false
